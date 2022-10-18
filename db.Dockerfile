@@ -1,0 +1,5 @@
+FROM postgres
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD postgrespw
+ENV POSTGRES_DB db_flask_simple_store
+EXPOSE 5432
